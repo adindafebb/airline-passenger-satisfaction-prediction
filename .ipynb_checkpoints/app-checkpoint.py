@@ -139,4 +139,4 @@ hide_menu_style = """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 
-browser.gatherUsageStats = False
+set gatherUsageStats = False

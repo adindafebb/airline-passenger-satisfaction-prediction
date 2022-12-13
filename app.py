@@ -4,6 +4,7 @@ import numpy as np
 import pickle
 from sklearn.ensemble import RandomForestClassifier
 from PIL import Image
+from joblib import dump, load
 
 # Customized Icon
 img2 = Image.open('icon plane.png')
@@ -103,7 +104,7 @@ else:
     
 
 # Reads in saved classification model
-load_rfc = pickle.load(open('model_rfc_fix.pkl', 'rb'))   
+load_rfc = load('model_rfc_fix.joblib')  
 
 
 # Apply model to make predictions

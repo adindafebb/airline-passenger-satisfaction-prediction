@@ -104,7 +104,7 @@ else:
     
 
 # Reads in saved classification model
-load_rfc = load('model_rfc_fix.joblib')  
+load_rfc = load('model_fix_skripsi.joblib')  
 
 
 # Apply model to make predictions

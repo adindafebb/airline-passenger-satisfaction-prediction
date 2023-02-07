@@ -2,6 +2,6 @@ streamlit
 pandas
 numpy
 pickle5
-scikit-learn==1.1.2
+scikit-learn==1.2.1
 Pillow
 joblib

@@ -1,7 +1,0 @@
-streamlit
-pandas
-numpy
-pickle5
-scikit-learn==0.21.3
-Pillow
-joblib

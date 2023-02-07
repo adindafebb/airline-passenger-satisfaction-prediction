@@ -14,9 +14,9 @@ st.set_page_config(page_title = 'Airline Passenger Satisfaction Prediction', pag
 st.write("""
 ## Airline Passenger Satisfaction Prediction App
 
-This app predicts the **satisfaction** of passengers!
+This application is the output of Adinda Febby Nuraini's final project as a requirement for completing undergraduate studies in Statistics at Universitas Sebelas Maret. This application is used to predict passenger **satisfaction**! 
 
-The prediction is built from a Random Forest machine learning model that has been trained on over 55,000 datasets to achieve an accuracy of 96.45% and F1-Score of 96.89%.
+The predictions are built from the Random Forest machine learning model which has been trained on more than 62,000 datasets to achieve an accuracy of 96.45% and an F1-Score of 96.89%.
 """)
 
 img = Image.open('plane.jpg')
@@ -137,3 +137,6 @@ hide_menu_style = """
         </style>
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+st.write("""
+contact : adindafebb.2002@gmail.com""")

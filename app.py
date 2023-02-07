@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import scikit-learn as sklearn
 from sklearn.ensemble import RandomForestClassifier
 from PIL import Image
 from joblib import dump, load
